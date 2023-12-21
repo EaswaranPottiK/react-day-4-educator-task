@@ -1,5 +1,6 @@
 
 import './App.css';
+import Card from './Card';
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
     </div>
   </header>
   {/* code changes are made over here */}
+
+  <Card />
+
   <br />
   <br />
   <br />
