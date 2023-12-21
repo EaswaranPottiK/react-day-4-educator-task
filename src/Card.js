@@ -8,7 +8,7 @@ export default function Card(props) {
   style={{
     backgroundColor: "rgb(31 41 55)",
     color: "white",
-    padding: "40px 0 60px 0",
+    padding: "40px 50px 60px 50px",
     width: "87%",
     margin: "auto",
     marginTop: "13vh",
