@@ -1,6 +1,7 @@
 
 import './App.css';
 import Card from './Card';
+import { Data } from "./Data.js";
 
 function App() {
   return (
@@ -49,7 +50,16 @@ function App() {
   </header>
   {/* code changes are made over here */}
 
-  <Card />
+  {Data.map((obj,index)=>(
+            <div key={index}>
+            {obj.quotes.map((quote, qno)=>(
+                  <Card q={quote.quote} a ={quote.author}/>
+            ))}
+            </div>
+        ))}
+
+
+
 
   <br />
   <br />
